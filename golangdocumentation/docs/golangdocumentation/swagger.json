@@ -1,0 +1,44 @@
+{
+    "$schema": ["http"],
+    "swagger": "2.0",
+    "info": {
+        "description":"This is a sample server",
+        "title":"Echo Swagger API Documentation",
+        "contact": {
+            "name":"Api Support",
+            "url":"http://www.swagger.io/Support",
+            "email":"support@swagger.io"
+        },
+        "license":{
+            "name":"Apache 2.0",
+            "url":"http.//www.apache.org/licenses/LICENSE-2.0.html"
+        },
+        "version":"1.0"
+    },
+    "host":"localhost:3000",
+    "basepath":"/",
+    "paths": {
+        "get": {
+            "description":"get the status of server",
+            "consumes":[
+                "*/*"
+            ],
+            "produces":[
+                "application/json"
+            ],
+            "tags":[
+                "root"
+            ],
+            "summary":"Show the status of server.",
+            "responses":{
+                "200":{
+                    "description":"OK",
+                    "schema":{
+                        "type":"object",
+                        "additionalProperties": true
+                    }
+                }
+            }
+        }
+    }
+}
