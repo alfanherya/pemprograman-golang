@@ -10,7 +10,7 @@ license:
  nama: Apache 2.0
  url: http://www.apache.org/license/LICENSE-2.0.html
 termOfService: http://swagger.io/terms/
-title: Echo swagger example api
+title: Swagger Api Documentation
 version: "1.0"
 
 paths: 

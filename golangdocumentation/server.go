@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
+	_ "github.com/alfanherya/pemprograman-golang/golangdocumentation/docs/golangdocumentation"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	_ "github.com/rizalgowandy/go-swag-sample/docs/echosimple"
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
